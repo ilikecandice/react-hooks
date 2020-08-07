@@ -1,3 +1,10 @@
+/*
+ * @Descripttion: 
+ * @Author: candice
+ * @Date: 2020-08-03 19:16:37
+ * @LastEditors: candice
+ * @LastEditTime: 2020-08-04 19:01:10
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -5,9 +12,10 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+  //   <App />
+  // </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 
